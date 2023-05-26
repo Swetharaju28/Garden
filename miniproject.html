@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Flowers</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            margin: 0;
+
+        }
+        header, footer{
+           background: palevioletred url("./garden1.jpg") scroll no-repeat bottom;
+           background-size: cover;
+           padding: 10px;
+           color: white;
+           text-align: center;
+        }
+        nav{
+            background-color:powderblue;
+            overflow: hidden;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0%;
+            margin:0 ;
+
+        }
+        nav ul li{
+               float:left;
+
+        }
+        nav ul li a{
+               text-decoration:none ; 
+               color: goldenrod;
+               padding: 10px 25px;
+               display: inline-block;
+               font-size: 18px;
+        }
+        nav ul li a:hover{
+            background-color: aqua;
+        }
+        nav ul li a.active{
+            background-color: rgb(231, 217, 231);
+        }
+       
+        aside{
+           
+           float: left;
+           background-color: bisque;
+           width: 200px;
+           text-align: center;
+
+
+        }
+        aside ul{
+            list-style-type: none;
+            padding: 0;
+            margin:0 ;
+            height: 350px;
+            overflow: scroll;
+
+        }
+        aside ul li a{
+            text-decoration: none;
+            color: brown;
+            padding: 10px 28px;
+            display: block;
+        }
+        aside ul li a:hover{
+            background-color: bisque ;
+            color: rgb(177, 161, 191);
+        }
+        section{
+            margin-left: 200px;
+            border-left:2px solid rgb(107, 105, 96) ;
+            padding: 20px;
+        }
+        details{
+            background-color: rgb(244, 215, 204);
+            padding: 5px;
+            margin:5px ;
+            border-radius:50px ;
+
+        }
+        article{
+            background-color: rgb(171, 166, 175);
+            border-radius: 50px;
+            padding: 10px;
+
+        }
+        summary{
+
+        }
+    </style>
+</head>
+<body>
+    <!--Main Header-->
+    <header>
+        <h1>
+        Garden Explosure
+        </h1>
+        <p>Enter into the heaven</p>
+    </header>
+
+    <!--Main navigation-->
+    <nav>
+        <ul>
+        <li>
+            <a href="#" class="active">Home</a>
+        </li>
+        <li>
+            <a href="#" class="active">About Us</a>
+        </li>
+        <li>
+            <a href="#" class="active"> Features</a>
+        </li>
+        <li>
+            <a href="#" class="active">contact Us</a>
+        </li>
+    </ul>
+    </nav>
+    <!--Sidebar section-->
+    <aside>
+        <ul>
+        <li>
+            <a href="#">Ayurvedic Flowers</a>
+        </li>
+        <li>
+            <a href="#">Beauty Flowers</a>
+        </li>
+        <li>
+            <a href="#">perfume Flowers</a>
+        </li>
+        <li>
+            <a href="#">Seasonal Flowers</a>
+        </li>
+    </ul>
+    </aside>
+    <!--Main content-->
+    <section>
+        <!--Ayurvedic Flowers-->
+        <details>
+          <summary>Ayurvedic Flowers</summary>
+            <article>
+                <h3>Ayurvedic Flowers</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsa labore assumenda ipsum aliquam commodi cupiditate itaque natus iste dolor. Accusamus, aperiam explicabo illum tenetur velit nam aliquam natus libero.</p>
+                <img src="./ayurvedic6.jpg" alt="image" width="300">
+                <img src="./ayurvedic7.jpg" alt="image" height="200">
+                <img src="./ayurvedic3.jpg" alt="image" height="200">
+            </article>
+        </details>
+        <!--Beauty Flowers-->
+        <details>
+            <summary>Beauty Flowers</summary>
+            <article>
+                <h3>Beauty Flowers</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos dignissimos assumenda perferendis unde. Obcaecati eum minima modi commodi magnam maiores suscipit voluptate repellendus tenetur. Sed atque ullam quos quibusdam illo!</p>
+                <img src="./beautiful6.jpg" alt="image" width="300">
+                <img src="./beautiful2.jpg" alt="image"  height="200">
+                <img src="./beautiful4.jpg" alt="image"  height="200">
+            </article>
+        </details>
+        <!--Perfume Flowers-->
+        <details>
+           <summary>Perfume Flowers</summary>
+           <article>
+            <h3>Perfume Flowers</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quasi provident, hic ipsa itaque sapiente culpa beatae unde nisi fugiat tempore adipisci quia earum reiciendis, perferendis fugit ea minima expedita.</p>
+            <img src="./perfume3.jpg" alt="image" width="300">
+            <img src="./perfume4.jpg" alt="image" width="300">
+            <img src="./perfume1.jpg" alt="image" width="300">
+           </article> 
+        </details>
+        <!--Seasonal Flowers-->
+        <details>
+            <summary>Seasonal Flowers</summary>
+            <article>
+                <h3>Seasonal Flowers</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut earum ut similique cupiditate voluptatibus porro facilis maiores delectus? Sint iusto sunt reprehenderit deleniti laborum porro consectetur placeat atque ipsam deserunt.</p>
+                <img src="./perfume7.jpg" alt="image" width="300" height="200">
+                <img src="./ayurvedic1.jpeg" alt="image" width="300">
+                <img src="./flowers.jpg" alt="image" width="300" height="200">
+            </article>
+        </details>
+
+    </section>
+
+    <!--Main footer-->
+    <footer>
+       <h2>Copyright &copy; 2023, Garden Explosure</h2>
+       <p>All Rights Reserved</p>
+       <small>Developed & Maintained by Swetha.B</small> 
+    </footer>
+</body>
+</html>
